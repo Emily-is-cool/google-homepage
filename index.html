@@ -10,8 +10,10 @@
     padding: 20px;
     }
 .divbod {
-    width: 90%;
+    width: 100%;
     margin:auto; 
+    padding: 20px;
+    align:center;
 }
 .ul1 {
     float: left;
@@ -31,14 +33,23 @@ li {font: 16px Roboto, Robotodraft, arial;
 }
 img2 {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin:auto;
     width: 192px;  
 }
 a { 
     text-decoration: none;
     color: black;
 }
+form {
+    width: 70%;
+    box-sizing: border-box;
+}
+input {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
 </style>
 <body background="white">
     <div class="divhead">
@@ -53,9 +64,15 @@ a {
             <li><img class="button1" src="https://lh3.googleusercontent.com/ogw/ADGmqu-8mPj8SfJGqbW-tnZ1hIed0e4DPdqWdU02XrfZHw=s32-c-mo"></a></li>
             </ul>
     </div>
- <div class="divbod" align="center" margin-top="150px"> <img class="img2" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-
+ <div class="divbod" align="center"> <img class="img2" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+<form>
+    <input type="text" name="search-area" id="search">
+    
+</form>
 </div>
-
+<div class="divbod" align="center">
+    <button>Google Search</button>
+    <button>I'm Feeling Lucky</button>
+</div>
 </body>   
 </html>
