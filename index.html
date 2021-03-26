@@ -13,17 +13,19 @@
     width: 100%;
     margin:auto; 
     padding: 20px;
-    align:center;
 }
 .ul1 {
     float: left;
+    margin:auto;
 }
 .ul2 {
     float: right;
+    margin: auto;
 }
 li {font: 16px Roboto, Robotodraft, arial;
-    display: inline-flex;
     padding: 6px;
+    display: inline-flex;
+    position: relative;
 }
 .button1 {
     border-radius: 50%;
@@ -39,6 +41,7 @@ img2 {
 a { 
     text-decoration: none;
     color: black;
+    text-align: center;
 }
 form {
     width: 70%;
@@ -49,7 +52,14 @@ input {
     border: 1px solid black;
     border-radius: 15px;
 }
-
+.footer {
+    background-color: rgb(211, 202, 202);
+    padding: 0px;
+    overflow:hidden;
+    margin-bottom: 0;
+    margin-top: 50%;
+    width: 100%;
+}
 </style>
 <body background="white">
     <div class="divhead">
@@ -73,6 +83,18 @@ input {
 <div class="divbod" align="center">
     <button>Google Search</button>
     <button>I'm Feeling Lucky</button>
+</div>
+<div class="footer"> 
+    <ul class="ul1">
+        <li><a href="">Advertising</a></li>
+        <li><a href="">Business</a></li>
+        <li><a href=""></a>How Search Works</li>
+    </ul>
+    <ul class="ul2">
+        <li><a href="">Privacy</a></li>
+        <li><a href=""></a>Terms</li>
+        <li><a href=""></a>Settings</li>
+    </ul>
 </div>
 </body>   
 </html>
